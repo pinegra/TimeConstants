@@ -1,0 +1,26 @@
+{
+  "name": "pinegra/time-const",
+  "description": "Time Constants",
+  "keywords": [
+    "time",
+    "constants",
+    "datetime"
+  ],
+  "homepage": "https://github.com/pinegra/time-const",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladislav J Alexeyev",
+      "email": "vlad@alexeyev.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pinegra\\TimeConst\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^5.0|^7.0"
+  }
+}
